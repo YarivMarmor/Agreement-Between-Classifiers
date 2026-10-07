@@ -13,9 +13,11 @@ authors:
 
 repository-code: "https://github.com/YarivMarmor/Agreement-Between-Classifiers"
 
+doi: "10.5281/zenodo.23224772"
+
 license: "MIT"
 
-version: "1.0.0"
+version: "1.0.1"
 
 date-released: 2026-10-08
 
