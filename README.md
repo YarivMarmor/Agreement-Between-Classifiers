@@ -120,6 +120,28 @@ Citation metadata are also provided in the `CITATION.cff` file.
 
 This project is released under the MIT License.
 
+## Windows executable
+
+A standalone Windows executable is available from the GitHub Releases page.
+
+The executable does not require Python to be installed.
+
+### Windows security warning
+
+The current executable is not digitally signed. Windows Defender SmartScreen may therefore display a warning such as:
+
+"Windows protected your PC" or "Unknown publisher".
+
+If you downloaded the executable from the official GitHub Releases page of this repository and wish to continue:
+
+1. Click **More info**
+2. Verify that the displayed file name is the expected executable
+3. Click **Run anyway**
+
+The Python source code used to build the executable is available in this repository for inspection.
+
+This project is released under the MIT License.
+
 ## Contact
 
 For questions regarding the methodology or implementation, please contact the authors through the corresponding publication.
