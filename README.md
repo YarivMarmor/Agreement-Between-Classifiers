@@ -54,6 +54,11 @@ The program allows the user to specify the number of categories and classifiers,
 - Python 3
 - NumPy
 
+Install the required Python package with:
+
+```bash
+pip install -r requirements.txt
+
 ## Citation
 
 If you use the methodology presented in this repository, please cite the associated paper.
