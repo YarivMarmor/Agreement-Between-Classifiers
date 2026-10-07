@@ -36,15 +36,23 @@ The software enables the user to:
 
 ## Software
 
-The software is implemented in Python.
+The software is implemented in Python and provided as a command-line application.
 
-A graphical version of the tool will be provided in this repository.
+The main program is:
 
-A Windows executable version will also be made available through GitHub Releases.
+`agreement_calculator.py`
+
+The program allows the user to specify the number of categories and classifiers, enter the conditional classification probabilities for each classifier, and calculate:
+
+- Agreement value
+- Repeatability variation
+- Inter-classifier variation
+- Total variation
 
 ## Requirements
 
-Detailed installation and execution instructions will be added with the first software release.
+- Python 3
+- NumPy
 
 ## Citation
 
