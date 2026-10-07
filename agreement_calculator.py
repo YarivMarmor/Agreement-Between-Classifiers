@@ -217,3 +217,4 @@ def run_probability_calculator() -> None:
 
 if __name__ == "__main__":
     run_probability_calculator()
+    input("\nPress Enter to exit...")
