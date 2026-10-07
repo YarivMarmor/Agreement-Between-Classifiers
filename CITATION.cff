@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software and the associated paper."
+
+title: "Agreement Between Classifiers"
+
+type: software
+
+authors:
+  - family-names: "Marmor"
+    given-names: "Yariv N."
+  - family-names: "Bashkansky"
+    given-names: "Emil"
+
+repository-code: "https://github.com/YarivMarmor/Agreement-Between-Classifiers"
+
+license: "MIT"
+
+version: "1.0.0"
+
+date-released: 2026-10-08
+
+preferred-citation:
+  type: article
+  title: "Agreement Between Classifiers: A Metrological Interpretation"
+  authors:
+    - family-names: "Marmor"
+      given-names: "Yariv N."
+    - family-names: "Bashkansky"
+      given-names: "Emil"
