@@ -104,6 +104,46 @@ Inter-classifier variation = 0.0167
 Total variation = 0.5092
 ```
 
+## Windows executable
+
+A standalone Windows executable is available from the GitHub Releases page:
+
+`AgreementCalculator_v1.0.1.exe`
+
+The executable does not require Python to be installed.
+
+### Windows security warning
+
+The current executable is not digitally signed. Windows Defender SmartScreen may therefore display a warning such as:
+
+**Windows protected your PC**  
+or  
+**Unknown publisher**
+
+If you downloaded the executable from the official GitHub Releases page of this repository and wish to continue:
+
+1. Click **More info**
+2. Verify that the displayed file name is `AgreementCalculator_v1.0.1.exe`
+3. Click **Run anyway**
+
+The Python source code used to implement the calculations is available in this repository for inspection.
+
+## Code signing policy
+
+Free code signing is intended to be provided by SignPath.io, with a certificate issued by SignPath Foundation.
+
+### Project roles
+
+- Authors / committers: Yariv N. Marmor
+- Reviewer: Yariv N. Marmor
+- Approver for signing requests: Yariv N. Marmor
+
+### Privacy policy
+
+This program performs all calculations locally.
+
+This program will not transfer any information to other networked systems unless specifically requested by the user or the person installing or operating it.
+
 ## Citation
 
 If you use the methodology presented in this repository, please cite the associated paper.
@@ -117,28 +157,6 @@ https://doi.org/10.5281/zenodo.23224772
 Citation metadata are also provided in the `CITATION.cff` file.
 
 ## License
-
-This project is released under the MIT License.
-
-## Windows executable
-
-A standalone Windows executable is available from the GitHub Releases page.
-
-The executable does not require Python to be installed.
-
-### Windows security warning
-
-The current executable is not digitally signed. Windows Defender SmartScreen may therefore display a warning such as:
-
-"Windows protected your PC" or "Unknown publisher".
-
-If you downloaded the executable from the official GitHub Releases page of this repository and wish to continue:
-
-1. Click **More info**
-2. Verify that the displayed file name is the expected executable
-3. Click **Run anyway**
-
-The Python source code used to build the executable is available in this repository for inspection.
 
 This project is released under the MIT License.
 
