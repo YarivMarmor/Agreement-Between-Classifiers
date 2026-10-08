@@ -2,7 +2,6 @@ cff-version: 1.2.0
 message: "If you use this software, please cite both the software and the associated paper."
 
 title: "Agreement Between Classifiers"
-
 type: software
 
 authors:
@@ -13,11 +12,11 @@ authors:
 
 repository-code: "https://github.com/YarivMarmor/Agreement-Between-Classifiers"
 
-doi: "10.5281/zenodo.23224772"
+doi: "10.5281/zenodo.23248937"
 
 license: "MIT"
 
-version: "1.0.1"
+version: "1.0.2"
 
 date-released: 2026-10-08
 
