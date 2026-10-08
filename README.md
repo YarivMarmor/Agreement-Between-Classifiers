@@ -108,7 +108,7 @@ Total variation = 0.5092
 
 A standalone Windows executable is available from the GitHub Releases page:
 
-`AgreementCalculator_v1.0.1.exe`
+`AgreementCalculator.exe`
 
 The executable does not require Python to be installed.
 
@@ -123,14 +123,14 @@ or
 If you downloaded the executable from the official GitHub Releases page of this repository and wish to continue:
 
 1. Click **More info**
-2. Verify that the displayed file name is `AgreementCalculator_v1.0.1.exe`
+2. Verify that the displayed file name is `AgreementCalculator.exe`
 3. Click **Run anyway**
 
 The Python source code used to implement the calculations is available in this repository for inspection.
 
 ## Code signing policy
 
-Free code signing is intended to be provided by SignPath.io, with a certificate issued by SignPath Foundation.
+Free code signing provided by SignPath.io, certificate by SignPath Foundation..
 
 ### Project roles
 
