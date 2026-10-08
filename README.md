@@ -38,11 +38,13 @@ The software enables the user to:
 
 The software is implemented in Python and provided as a command-line application.
 
-The main program is:
+The main Python program is:
 
 `agreement_calculator.py`
 
 ## Requirements
+
+To run the Python source code:
 
 - Python 3
 - NumPy
@@ -53,7 +55,7 @@ Install the required package with:
 pip install -r requirements.txt
 ```
 
-## Running the software
+## Running the Python software
 
 Download or clone this repository and run:
 
@@ -106,43 +108,35 @@ Total variation = 0.5092
 
 ## Windows executable
 
-A standalone Windows executable is available from the GitHub Releases page:
+A standalone Windows executable is available from the GitHub Releases page.
 
-`AgreementCalculator.exe`
+Current release:
+
+`AgreementCalculator_v1.0.2.exe`
 
 The executable does not require Python to be installed.
 
+The Windows executable is built automatically from the source code using GitHub Actions.
+
 ### Windows security warning
 
-The current executable is not digitally signed. Windows Defender SmartScreen may therefore display a warning such as:
+The executable is currently not digitally signed. Windows Defender SmartScreen may therefore display a warning such as:
 
 **Windows protected your PC**  
 or  
 **Unknown publisher**
 
-If you downloaded the executable from the official GitHub Releases page of this repository and wish to continue:
+If you downloaded the executable from the official Releases page of this repository and wish to continue:
 
 1. Click **More info**
-2. Verify that the displayed file name is `AgreementCalculator.exe`
+2. Verify that the displayed file name is `AgreementCalculator_v1.0.2.exe`
 3. Click **Run anyway**
 
 The Python source code used to implement the calculations is available in this repository for inspection.
 
-## Code signing policy
+## Privacy
 
-Free code signing provided by SignPath.io, certificate by SignPath Foundation..
-
-### Project roles
-
-- Authors / committers: Yariv N. Marmor
-- Reviewer: Yariv N. Marmor
-- Approver for signing requests: Yariv N. Marmor
-
-### Privacy policy
-
-This program performs all calculations locally.
-
-This program will not transfer any information to other networked systems unless specifically requested by the user or the person installing or operating it.
+This program performs all calculations locally and does not collect or transmit user data.
 
 ## Citation
 
@@ -150,9 +144,12 @@ If you use the methodology presented in this repository, please cite the associa
 
 If you use the software implementation in computational work, please also cite the software release.
 
-Software DOI:
+**Software version:** v1.0.2  
+**DOI:** https://doi.org/10.5281/zenodo.23248937
 
-https://doi.org/10.5281/zenodo.23224772
+Suggested software citation:
+
+> Marmor, Y. N., & Bashkansky, E. (2026). *Agreement Between Classifiers* (Version v1.0.2) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23248937
 
 Citation metadata are also provided in the `CITATION.cff` file.
 
